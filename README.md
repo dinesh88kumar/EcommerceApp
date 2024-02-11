@@ -8,7 +8,7 @@ Endpoints for CRUD Operations
 Add Product
 -----------
 
-Endpoint: /Add
+Endpoint: /Add ,
 Method: POST
 Description: Adds a new product to the catalog.
 
@@ -44,7 +44,7 @@ Payload Example:
 Delete Product
 ---------------
 
-Endpoint: /Delete
+Endpoint: /Delete ,
 Method: POST
 Description: Deletes a product from the catalog based on the provided product ID.
 Payload Example:
@@ -57,7 +57,7 @@ Payload Example:
 Read Product
 --------------
 
-Endpoint: /Read
+Endpoint: /Read ,
 Method: POST
 Description: Retrieves product details based on the provided product ID.
 
@@ -72,13 +72,16 @@ Payload Example:
 Get All Products
 -------------------
 
-Endpoint: /getAll
+Endpoint: /getAll ,
 Method: GET
+
 Description: Retrieves a list of all products in the catalog.
 Endpoint for Applying Discount or Tax
 Apply Discount or Tax
-Endpoint: /ecom/Apply/discountOrtax
+
+Endpoint: /ecom/Apply/discountOrtax ,
 Method: POST
+
 Description: Applies either a discount or tax to a specific product based on the provided product ID, type (discount or tax), and percentage.
 
 
@@ -125,9 +128,9 @@ Example:
 Notes:
 -----
 The project uses the following conventions for endpoints:
-/Add for adding a product
-/Edit for editing a product
-/Delete for deleting a product
-/Read for reading product details
+/Add for adding a product ,
+/Edit for editing a product ,
+/Delete for deleting a product ,
+/Read for reading product details ,
 /getAll for retrieving a list of all products and /ecom/Apply/discountOrtax
 The payload examples are provided to illustrate the structure of the data expected in the requests.
