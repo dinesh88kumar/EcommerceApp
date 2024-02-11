@@ -1,4 +1,7 @@
 Endpoints for CRUD Operations
+------------------------------
+
+
 Add Product
 
 Endpoint: /Add
@@ -18,6 +21,7 @@ Payload Example:
 
 
 Edit Product
+-------------
 
 Endpoint: /Edit
 Method: POST
@@ -34,6 +38,7 @@ Payload Example:
 
 
 Delete Product
+---------------
 
 Endpoint: /Delete
 Method: POST
@@ -46,6 +51,7 @@ Payload Example:
 
 
 Read Product
+--------------
 
 Endpoint: /Read
 Method: POST
@@ -60,6 +66,7 @@ Payload Example:
 
 
 Get All Products
+-------------------
 
 Endpoint: /getAll
 Method: GET
@@ -79,6 +86,9 @@ Payload Example:
     "percentage": 10
 }
 
+
+
+
 Payload Structures
 
 Product Model Payload:
@@ -94,6 +104,8 @@ Example:
     "price": 6999,
     "quantity": 1
 }
+
+
 Discount Model Payload:
 ----------------------
 Represents the payload structure for applying a discount or tax to a product.
@@ -104,6 +116,8 @@ Example:
     "type": "discount",
     "percentage": 10
 }
+
+
 Notes:
 -----
 The project uses the following conventions for endpoints:
