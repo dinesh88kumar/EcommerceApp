@@ -1,8 +1,9 @@
-Endpoints for CRUD Operations
-------------------------------
+"Endpoints for CRUD Operations"
+
 
 
 Add Product
+-----------
 
 Endpoint: /Add
 Method: POST
