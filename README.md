@@ -27,7 +27,7 @@ Payload Example:
 Edit Product
 -------------
 
-Endpoint: /Edit
+Endpoint: /Edit ,
 Method: POST
 Description: Updates product information based on the provided product ID.
 Payload Example:
