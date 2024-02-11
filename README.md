@@ -4,6 +4,8 @@ Add Product
 Endpoint: /Add
 Method: POST
 Description: Adds a new product to the catalog.
+
+
 Payload Example:
 
 {
@@ -13,6 +15,8 @@ Payload Example:
     "price": 6999,
     "quantity": 1
 }
+
+
 Edit Product
 
 Endpoint: /Edit
@@ -27,6 +31,8 @@ Payload Example:
     "price": 7999,
     "quantity": 2
 }
+
+
 Delete Product
 
 Endpoint: /Delete
@@ -37,16 +43,22 @@ Payload Example:
 {
     "productId": 3
 }
+
+
 Read Product
 
 Endpoint: /Read
 Method: POST
 Description: Retrieves product details based on the provided product ID.
+
+
 Payload Example:
 
 {
     "productId": 3
 }
+
+
 Get All Products
 
 Endpoint: /getAll
@@ -57,6 +69,8 @@ Apply Discount or Tax
 Endpoint: /ecom/Apply/discountOrtax
 Method: POST
 Description: Applies either a discount or tax to a specific product based on the provided product ID, type (discount or tax), and percentage.
+
+
 Payload Example:
 
 {
